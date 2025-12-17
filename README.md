@@ -4,17 +4,18 @@ Notes for setting up Fedora KDE Plasma on the Framework 13
 
 ## Pre installation
 
-1. Backup to SSD and cloud
+1. Create USB boot drive
+    - Download [Fedora KDE Plasma Spin](https://fedoraproject.org/en/kde/download)
+    - Flash USB using Fedora Media Writer (or Balena Etcher)
+
+2. Backup to SSD and cloud
+    - Export VSCode profile to `~/Documents`
     - `~/Documents`
+    - `~/.ssh`
     - `~/.zshrc`
     - `~/.zsh_history`
-    - SSH/GPG keys
-    - VSCode profile
 
-2. Remove fingerprints
-
-3. Create USB boot drive
-    - [Fedora KDE Plasma Spin](https://fedoraproject.org/en/kde/download)
+3. Remove fingerprints
 
 ## Installation
 
@@ -34,7 +35,9 @@ Notes for setting up Fedora KDE Plasma on the Framework 13
 4. Install git
     - [Set username/email](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
-5. Install VSCode
+5. Install [zsh, oh-my-zsh](https://linuxvox.com/blog/zsh-install-linux/), [pure-prompt](https://github.com/sindresorhus/pure?tab=readme-ov-file#getting-started)
+
+6. Install VSCode
     - [Download RPM](https://code.visualstudio.com/Download)
 
-6. Restore backup
+7. Restore backup
