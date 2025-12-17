@@ -6,6 +6,8 @@ Notes for setting up Fedora KDE Plasma on the Framework 13
 
 1. Backup to SSD and cloud
     - `~/Documents`
+    - `~/.zshrc`
+    - `~/.zsh_history`
     - SSH/GPG keys
     - VSCode profile
 
