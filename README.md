@@ -32,12 +32,15 @@ Notes for setting up Fedora KDE Plasma on the Framework 13
 
 3. Display scale: 200%
 
-4. Install git
+4. Install git `sudo dnf install git`
     - [Set username/email](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
 5. Install [zsh, oh-my-zsh](https://linuxvox.com/blog/zsh-install-linux/), [pure-prompt](https://github.com/sindresorhus/pure?tab=readme-ov-file#getting-started)
 
-6. Install VSCode
+6. Install btrfs-assistant `sudo dnf btrfs-assistant`
+    - [Create snapshot](https://knowledgebase.frame.work/en_us/fedora-system-restore-root-snapshots-using-btrfs-assistant-rkHNxajS3)
+
+7. Install VSCode
     - [Download RPM](https://code.visualstudio.com/Download)
 
-7. Restore backup
+8. Restore backup from SSD
