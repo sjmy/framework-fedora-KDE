@@ -35,7 +35,10 @@ Notes for setting up Fedora KDE Plasma on the Framework 13
 4. Install git `sudo dnf install git`
     - [Set username/email](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
-5. Install [zsh, oh-my-zsh](https://linuxvox.com/blog/zsh-install-linux/), [pure-prompt](https://github.com/sindresorhus/pure?tab=readme-ov-file#getting-started)
+5. Prompt installs
+    - [zsh, oh-my-zsh](https://linuxvox.com/blog/zsh-install-linux/)
+    - [pure-prompt](https://github.com/sindresorhus/pure?tab=readme-ov-file#install)
+    - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 
 6. Install btrfs-assistant `sudo dnf btrfs-assistant`
     - [Create snapshot](https://knowledgebase.frame.work/en_us/fedora-system-restore-root-snapshots-using-btrfs-assistant-rkHNxajS3)
